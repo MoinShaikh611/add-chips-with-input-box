@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.input-wrapper {
+  position: relative;
+  border: 1px solid blue;
+  height: 30px;
+}
+.input-wrapper input {
+  border: none;
+  outline: none;
+}
+.input-wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.input-wrapper ul li {
+  list-style: none;
+  background-color: bisque;
+  border-radius: 3px;
+  padding: 0.1em 0.5em;
+}
